@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+main {
+  width: 60%;
+  margin: 20px auto 0;
+
+  img {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  header {
+    margin: 10px 0 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    text-align: center;
+
+    h1 {
+      text-transform: uppercase;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .obj, .edu, .skill, .exp, .act {
+    margin-bottom: 20px;
+  }
+
+  .obj {
+
+    p {
+      margin-left: 40px;
+    }
+  }
+
+  .edu {
+
+    .sch {
+      display: grid; grid-template-columns: 1fr 1fr;
+      margin-left: 40px;
+     
+    }
+  }
+
+  .skill {
+
+    p {
+      margin-left: 40px;
+    }
+  }
+
+  .exp, .act {
+
+    ul {
+      margin-left: 40px;
+    }
+  }
+}
